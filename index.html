@@ -1,24 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZCJRWZY7Z"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-XZCJRWZY7Z');
-  </script>
-  <!-- Event snippet for Subscribe conversion page -->
-<script>
-  gtag('event', 'conversion', {'send_to': 'AW-16901204481/B5O-CL7ZtqQaEIHUj_s-'});
-</script>
-
-
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./piggy-bank.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <title>Financial Planner | Retirement Investment Calculator</title>
     <meta name="description" content="Plan your retirement with our comprehensive financial planner. Compare 401(k), IRA, and other investment options to optimize your retirement strategy." />
     <meta name="keywords" content="retirement planning, financial calculator, investment planning, 401k calculator, IRA planning, retirement savings" />
@@ -32,8 +17,33 @@
     <meta name="twitter:title" content="Financial Planner | Retirement Investment Calculator" />
     <meta name="twitter:description" content="Plan your retirement with our comprehensive financial planner. Compare 401(k), IRA, and other investment options." />
     <link rel="canonical" href="https://retirement-investors.com" />
-    <script type="module" crossorigin src="./assets/index-BC7hH-zu.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CG9Nsn69.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Financial Planner",
+        "description": "Plan your retirement with our comprehensive financial planner. Compare 401(k), IRA, and other investment options to optimize your retirement strategy.",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Retirement savings calculator",
+          "Multiple account type analysis (401k, IRA, etc.)",
+          "Tax optimization strategies",
+          "Investment projection charts",
+          "Customizable retirement age",
+          "After-tax value calculations"
+        ]
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-CdYA-zRi.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Co9DaJ0m.css">
   </head>
   <body>
     <div id="root"></div>
